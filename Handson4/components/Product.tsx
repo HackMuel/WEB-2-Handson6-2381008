@@ -6,6 +6,7 @@ interface Product{
     price: number;
     description: string;
     imageUrl: string;
+    
 }
 
 const Product:React.FC<Product> = ({name, price, description, imageUrl}) => {
